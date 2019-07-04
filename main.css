@@ -1,0 +1,209 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav {
+  padding: 20px;
+}
+section {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+  font-weight: 100;
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2.5em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h3 {
+  font-size: 1.8em;
+}
+/* --------MENU NAV--------*/
+span {
+  color: #32c3ff;
+}
+.menu a {
+  color: #030303;
+}
+.menu {
+  display: flex;
+  margin: 20px 80px;
+  justify-content: center;
+  align-items: center;
+}
+.apply-button {
+  border: 1px solid white;
+  border-radius: 4px;
+  display: block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 0.9;
+  letter-spacing: 1px;
+  width: 100px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/*---------HERO--------*/
+
+.hero {
+  background-image: url(images/fondohero2.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero a {
+  color: white;
+}
+.hero p {
+  padding: 20px 140px;
+  font-size: 2em;
+}
+.herobutton {
+  border: 1px solid #32c3ff;
+  border-radius: 4px;
+  background-color: #32c3ff;
+  display: block;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  font-size: 0.9;
+  letter-spacing: 1px;
+  width: 300px;
+  margin: 0 auto 40px;
+  text-decoration: none;
+}
+/* ------ASIDE-------- */
+
+aside {
+  text-align: center;
+  filter: grayscale(2);
+}
+aside .flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+aside img {
+  width: 100px;
+}
+hr {
+  width: 60%;
+  margin: 10px auto;
+}
+aside p {
+  margin: 20px auto;
+}
+
+/* -----SECTION 1------ */
+
+.graduados {
+  background-image: url(images/fondosection.png);
+  background-size: cover;
+}
+.group {
+  width: 650px;
+  padding-left: 180px;
+  height: 350px;
+  border-radius: 8px;
+}
+.quotes {
+  width: 100px;
+}
+
+.numbers {
+  width: 800px;
+  height: 150px;
+  margin: 60px;
+}
+
+section .flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quotes-container {
+  padding-right: 400px;
+  padding-left: 60px;
+}
+
+.quotes-container article {
+  width: 120px;
+  border-radius: 5px;
+  color: #f49102;
+  background-color: white;
+}
+small {
+  color: #030303;
+}
+.shadow {
+  color: #fff;
+  box-shadow: 3px 7px 10px #be4e03;
+}
+
+/*--------SECTION 2------------*/
+
+.container-values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 100px;
+  text-align: left;
+}
+.values img {
+  float: left;
+  margin: 20px;
+}
+.values {
+  width: 50%;
+}
+/*--------SECTION 3------------*/
+.last {
+  background-color: #f8f8f8;
+}
+.container-last {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px auto;
+}
+.last-p {
+  text-align: center;
+}
+.last-button {
+  border: 1px solid #32c3ff;
+  border-radius: 4px;
+  background-color: transparent;
+  display: block;
+  padding: 20px 15px;
+  text-transform: lowercase;
+  font-size: 0.9;
+  letter-spacing: 1px;
+  width: 300px;
+  margin: 40px auto;
+  text-decoration: none;
+}
+last-button.a {
+  color: #32c3ff;
+}
+article .p-date {
+  color: #f29392;
+}
+article .p-last {
+  color: #a7aab3;
+  padding: 10px 40px;
+}
+.effect:hover {
+  background-color: white;
+  box-shadow: 3px 7px 10px #be4e03;
+  border-radius: 5px;
+}
